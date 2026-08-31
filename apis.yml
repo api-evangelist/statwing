@@ -59,3 +59,9 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/qualtrics/
+  name: Qualtrics
+  x-relationship: acquired
+  x-evidence: "Statwing was acquired by Qualtrics in 2015 and the product discontinued, and the statwing."
