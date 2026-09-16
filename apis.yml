@@ -23,12 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/statwing.png
 name: Statwing
-description: Statwing was a self-serve statistical-analysis SaaS tool that let non-statisticians
-  run and interpret analyses on survey and spreadsheet data through a point-and-click interface.
-  It was surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub.
-  Enrichment (2026-07-21) found no live company or developer surface. Statwing was acquired by
-  Qualtrics in 2015 and the product discontinued, and the statwing.com domain now serves an
-  unrelated Thai-language lifestyle site. No API, documentation, SDKs, or developer resources exist.
+description: Statwing was a self-serve statistical-analysis SaaS tool that let non-statisticians run and
+  interpret analyses on survey and spreadsheet data through a point-and-click interface. It was surfaced
+  as a portfolio company of a16z and added to the API Evangelist network as a stub. Enrichment (2026-07-21)
+  found no live company or developer surface. Statwing was acquired by Qualtrics in 2015 and the product
+  discontinued, and the statwing.com domain now serves an unrelated Thai-language lifestyle site. No API,
+  documentation, SDKs, or developer resources exist.
 url: https://raw.githubusercontent.com/api-evangelist/statwing/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,7 +38,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 x-api-surface: none
 x-api-surface-reason: defunct-acquired-by-qualtrics-2015-domain-repurposed
 tags:
@@ -64,4 +64,5 @@ common:
   url: https://apis.io/providers/qualtrics/
   name: Qualtrics
   x-relationship: acquired
-  x-evidence: "Statwing was acquired by Qualtrics in 2015 and the product discontinued, and the statwing."
+  x-evidence: Statwing was acquired by Qualtrics in 2015 and the product discontinued, and the statwing.
+x-status: defunct
